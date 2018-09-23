@@ -1,0 +1,126 @@
+/*****************
+*
+*    Theme Name: 'Picture'
+*    Author: Mohammad Rahmani
+*    Author URL: http://mohammadrahmani.com
+*
+*/
+
+/* Import Css File */
+@import 'font/font-awesome.css';@import '../lib/animation/animate.min.css';
+
+/* Custom Fonts */
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:700;
+    src:url(../fonts/iransans/IRANSansWeb_Bold.eot?7626d015e15844db7d1f54c8e415461a);
+    src:url(../fonts/iransans/IRANSansWeb_Bold.eot?7626d015e15844db7d1f54c8e415461a) format("embedded-opentype"),url(../fonts/iransans/IRANSansWeb_Bold.woff2?6ec03a37e370c0d7f4f6bbdba0feac23) format("woff2"),url(../fonts/iransans/IRANSansWeb_Bold.woff?a762a767a3459fec2195da1373ebf0b1) format("woff"),url(../fonts/iransans/IRANSansWeb_Bold.ttf?4ff441e3b8c51acd2261585feca1d8c8) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:500;
+    src:url(../fonts/iransans/IRANSansWeb_Medium.eot?1121c0520a30a7295ffe21dd3fe77a60);
+    src:url(../fonts/iransans/IRANSansWeb_Medium.eot?1121c0520a30a7295ffe21dd3fe77a60) format("embedded-opentype"),url(../fonts/iransans/IRANSansWeb_Medium.woff2?bb6a9fe5edb6791184821d992bffdcf4) format("woff2"),url(../fonts/iransans/IRANSansWeb_Medium.woff?74e2ab212452657f2fc66bd08873884b) format("woff"),url(../fonts/iransans/IRANSansWeb_Medium.ttf?7a75459b25fca9937df9110d7e049133) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:300;
+    src:url(../fonts/iransans/IRANSansWeb_Light.eot?60f95f28d8469e5df0398ba1d3e9708e);
+    src:url(../fonts/iransans/IRANSansWeb_Light.eot?60f95f28d8469e5df0398ba1d3e9708e) format("embedded-opentype"),url(../fonts/iransans/IRANSansWeb_Light.woff2?414e7148a634bfc82a601e3dacf84e96) format("woff2"),url(../fonts/iransans/IRANSansWeb_Light.woff?469a8f6aa5b4631045b7d922102392ac) format("woff"),url(../fonts/iransans/IRANSansWeb_Light.ttf?53a90b39dae08e4e4539ca2ce0cb3a68) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:200;
+    src:url(../fonts/iransans/IRANSansWeb_UltraLight.eot?b8efb89efe7dc02c439a362d17c9dc5e);
+    src:url(../fonts/iransans/IRANSansWeb_UltraLight.eot?b8efb89efe7dc02c439a362d17c9dc5e) format("embedded-opentype"),url(../fonts/iransans/IRANSansWeb_UltraLight.woff2?5010d0152420ca7bd3acb1a9d668a57e) format("woff2"),url(../fonts/iransans/IRANSansWeb_UltraLight.woff?153b7b5a1579526611373210b6fd8754) format("woff"),url(../fonts/iransans/IRANSansWeb_UltraLight.ttf?eeb1edcad9b20c19bd1eecd1c371e4f8) format("truetype")
+}
+@font-face {
+    font-family:IRANSans;
+    font-style:normal;
+    font-weight:400;
+    src:url(../fonts/iransans/IRANSansWeb.eot?e43cfbc1a67d90e910398ded8345cd32);
+    src:url(../fonts/iransans/IRANSansWeb.eot?e43cfbc1a67d90e910398ded8345cd32) format("embedded-opentype"),url(../fonts/iransans/IRANSansWeb.woff2?c6f46673e2449eb071e2c098c5190c2a) format("woff2"),url(../fonts/iransans/IRANSansWeb.woff?df14582918ca379a280e453bb3cc6ba5) format("woff"),url(../fonts/iransans/IRANSansWeb.ttf?ac22d187130d6c3433a49a1e98bfa968) format("truetype")
+}
+
+/* Style For All Html Element */
+body {background: #F7F8FA none !important;padding: 0;margin: 0;font-size: 12px;line-height: 30px !important;color: #333;direction: rtl;text-align: right;font-family: 'IRANSans', serif !important;overflow-x: hidden !important;}
+ul {list-style: none;}
+a:hover, a:focus {text-decoration: none;}
+figure {margin: 0 !important;padding: 0;}
+
+/* Spacers */
+.sp200p {height: 200px;margin: 0;padding: 0;display: block;}
+.sp150p {height: 150px;margin: 0;padding: 0;display: block;}
+.sp100p {height: 100px;margin: 0;padding: 0;display: block;}
+.sp50p {height: 50px;margin: 0;padding: 0;display: block;}
+.sp20p {height: 20px;margin: 0;padding: 0;display: block;}
+
+/* Colors */
+.color999 {color: #999 !important;}
+.color333 {color: #333 !important;}
+.color555 {color: #555 !important;}
+.colorFFF {color: #fff !important;}
+.color899 {color: #8994c6 !important;}
+
+.bg-green {background: #2dde98;}
+.bgFFF {background: #fff !important;}
+.bgEEE {background: #eee !important;}
+.bgf7 {background: #f7f7f7 !important;}
+.bg333 {background: #333 !important;}
+.bg121 {background: #12102E !important;}
+.bg2E2 {background: #2E2A51 !important;}
+.gradient1 {background: linear-gradient(120deg, #00aeff, #3369e7) !important;}
+.gradient2 {background: linear-gradient(284deg, #1cc7d0, #2dde98) !important;}
+.gradient3 {background: linear-gradient(120deg, #4776e6, #8e54e9) !important;}
+.gradient4 {background: linear-gradient(284deg, #ff512f, #dd2476) !important;}
+.gradient5 {background: linear-gradient(269deg, #8e43e6, #b84592) !important;}
+.gradient6 {background: linear-gradient(45deg, #3E396B 50%, #201C38 100%) !important;}
+.gradient7 {background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%) !important;}
+.gradient8 {background: linear-gradient(to right, #8e43e7 0%, #3369e7 30%, #00aeff 100%) !important;}
+.gradient9 {background: linear-gradient(to right, #e74a16, #ff6a00) !important;}
+
+/* transition */
+.trans8s {transition: all .8s !important;-webkit-transition: all .8s !important;-o-transition: all .8s !important;}
+.trans5s {transition: all .5s !important;-webkit-transition: all .5s !important;-o-transition: all .5s !important;}
+.trans2s {transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
+
+/* Style For Class And Id */
+#header {height: 80px;border: none;background: rgba(255, 255, 255, 1);border-bottom: 1px solid #EDEDEF;font-size: 15px;}
+#header .nav-link, .navbar-brand {color: #333;font-weight: 400;transition: all .2s !important;-webkit-transition: all .2s !important;-o-transition: all .2s !important;}
+#header .nav-link:hover {color: #007bff;}
+#sub-header .sub-title {background: yellow;padding: 10px 20px;}
+.navbar-brand {position: absolute;left: 50px;top:20px;}
+.navbar-toggler {border: none;padding: 15px;}
+.collapse.show {background: rgba(255, 255, 255, 1);border-radius: 5px;margin: 10px 0 0 0;}
+.collapse.show  ul {padding: 0;}
+.collapse.show  ul a {padding: 10px;}
+.collapse.show a:hover {background: rgba(255, 255, 255, 100);display: block;color: #333 !important;}
+
+.container-fluid {padding: 50px 100px;}
+.p {width: 100%;margin: 20px 0 !important;overflow: hidden;background: #fff;border-radius: 10px;text-align: center;border: 1px solid #EDEDEF;}
+.p .p-image {width: 100%;height: 300px;overflow: hidden;position: relative;}
+.p .p-image .p-favorite {position: absolute;right: 25px;top: 20px;cursor: pointer;}
+.p .p-image .p-favorite span {font-size: 25px;color: #fff;}
+.p .p-image img {width: 100%;height: 100%;}
+.p figcaption.p-info {padding: 10px;}
+.p figcaption.p-info .p-title {font-weight: 100;}
+.p figcaption.p-info .p-title a:hover {color: #007bff !important;transition: color .5s;-webkit-transition: color .5s;-o-transition: color .5s;}
+.p figcaption.p-info .p-sender b {color: #333;}
+.p figcaption.p-info .p-profile {width: 50px;height: 50px;overflow: hidden;border-radius: 50px;margin: 0 auto;}
+.p figcaption.p-info .p-profile img {width: 100%;height: 100%;}
+
+/* Style in Tablet Resolotion */
+@media screen and (max-width: 1024px){
+	.container-fluid {padding: 50px;}
+}
+
+
+/* Style in Mobile Resolotion */
+@media screen and (max-width: 360px) {
+    .container-fluid {padding: 50px 0;}
+    .p .p-image {height: 200px;}
+}
